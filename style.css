@@ -1,0 +1,105 @@
+.container {
+  background-color: #011c27;
+  margin: 30px auto;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+li {
+  color: black;
+  list-style: none;
+  width: 100%;
+}
+
+ul {
+  background-color: #fff;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  border-radius: 4px;
+}
+
+li {
+  border-bottom: 1px transparent black;
+}
+
+#btn {
+  border-radius: 6px;
+  display: inline-block;
+  border: 3px solid #011c27;
+  color: gray;
+  padding: 0.75rem;
+}
+
+#btn2 {
+  border-radius: 6px;
+  display: none;
+  border: 3px solid #011c27;
+  color: gray;
+  padding: 0.75rem;
+}
+
+#closebtn {
+  border-radius: 6px;
+  background-color: skyblue;
+  color: #fff;
+  padding: 0.25rem;
+  margin-top: 0.75rem;
+}
+
+#closebtn:hover {
+  background-color: #011c27;
+  color: #fff;
+  cursor: pointer;
+}
+
+#changesbtn {
+  border-radius: 6px;
+  background-color: skyblue;
+  margin-top: 0.75rem;
+  color: #fff;
+  padding: 0.25rem;
+}
+
+#changesbtn:hover {
+  background-color: #011c27;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #011c27;
+  color: #fff;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  color: #fff;
+}
+
+.formcard {
+  background-color: #011c27;
+  margin: 30px auto;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  position: relative;
+  bottom: 20rem;
+  display: none;
+}
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.15rem;
+}
+
+h3 {
+  color: skyblue;
+}
+/*# sourceMappingURL=style.css.map */

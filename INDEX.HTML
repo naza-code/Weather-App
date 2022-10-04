@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>My Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="location"></h1>
+    <h3 id="description"></h3>
+    <h3 id="string"></h3>
+    <img id="icon">
+    
+    <ul class="listgroup">
+      <li class="listgroupitem" id="humidity">A</li>
+      <li class="listgroupitem" id="dewpoint">B</li>
+      <li class="listgroupitem" id="feelslike">C</li>
+      <li class="listgroupitem" id="wind">D</li>
+      
+    </ul>
+
+    <hr>
+    <button id="btn">Change Location</button>
+    <!-- <button id="btn2">Enter</button> -->
+  </div>
+
+  <div class="formcard">
+  <form >
+    <h3>Choose Location</h3>
+    <div>
+    <label for="">City</label>
+    <input type="" id="city">
+    </div>
+
+    <div>
+      <label for="">State</label>
+      <input type="text"id="state">
+    </div>
+
+    <div>
+      <button id="closebtn">Close</button>
+      <button id="changesbtn">Save Changes</button>
+    </div>
+  </form>
+
+  </div>
+
+  <script src="./weather.js"></script>
+  <script src="./storage.js"></script>
+  <script src="./ui.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
