@@ -7,7 +7,11 @@ class Weather {
 
   // Fetch Weather from API
   async getWeather() {
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?q=${this.city}&key=${this.api_Key}`)
+    const response = await fetch(`http://api.weatherapi.com/v1/current.json?q=${this.city}`, {
+      headers: {
+        'Authorization': `bearer ${this.api_Key}`
+      }
+    })
     const result = await response.json()
     return result
 
